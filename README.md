@@ -1,3 +1,3 @@
-# Homewokr #6
+# Homewokr #7
 
-goit-markup-hw-06
+goit-markup-hw-07

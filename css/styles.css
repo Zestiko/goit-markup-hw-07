@@ -44,6 +44,10 @@ fieldset {
 button {
     border-width: 0;
 }
+
+section {
+    padding: 94px 0;
+}
 .hide-title {
     position: absolute;
     width: 1px;
@@ -56,19 +60,6 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-/* Стили для шапки */
-.page-header {
-    border-bottom: 1px solid #ECECEC;
-        
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-
-    
-   
-}
 
 .container {
     width: 100%;
@@ -78,40 +69,56 @@ button {
 
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
 }
+
+/* Стили для шапки */
+.page-header {
+    border-bottom: 1px solid #ECECEC;
+        
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+
+
 /* Стиль Логотипа*/
 
 .logo {
     
     color: #000;
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
         
 
 }
 .footer-logo {
     color: #fff;
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
         
 
 }
-.logo-color {
+.logo--color {
     color: #2196F3;
 }
 /* Стили навигации */
-.site-nav {
+.site-navigation {
     display: flex;
     margin-left: 95px;
       
@@ -128,7 +135,7 @@ button {
 
 }
 
-.site-nav .item:not(:last-child){
+.site-navigation__item:not(:last-child){
     margin-right: 50px;
 }
 
@@ -1097,10 +1104,4 @@ button {
 .modal-close-button:focus .modal-close-icon 
 {
     fill: #2196F3;
-}
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-
 }
