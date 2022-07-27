@@ -34,6 +34,12 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     }
+    &:hover .client-list__icon,
+    &:focus .client-list__icon{
+        fill: #2196F3;
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 .client-list__icon {
     fill: #afb1b8;
@@ -43,9 +49,3 @@
 }
 
 
-.client-list__link:hover .client-list__icon,
-.client-list__link:focus .client-list__icon{
-    fill: #2196F3;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}

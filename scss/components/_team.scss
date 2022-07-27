@@ -64,6 +64,13 @@
     justify-content: space-between;
     align-items: center;
     margin: 16px auto 30px auto;
+
+    // & .team-socials__item:hover,
+    // .team-socials__item .team-socials__link:focus{
+    // background-color: #2196F3;
+    // transition: 250ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    // }
 }
 
 .team-socials__link {
@@ -90,7 +97,12 @@
     border-radius: 50%;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    /* background-color: blue; */
+    // & .team-socials__link:focus .team-socials__icon,
+    // .team-socials .team-socials__item:hover .team-socials__icon {
+    //     fill: #ffffff;
+    //     transition: 250ms;
+    //     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    // }
 }
 .team-socials .team-socials__item:hover,
 .team-socials__item .team-socials__link:focus{

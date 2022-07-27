@@ -63,6 +63,12 @@
     &:hover {
         border-color: #2196F3;
     }
+    &:hover + .form-field__icon,
+    &:focus + .form-field__icon,
+    &:active + .form-field__icon{
+    fill: #2196F3;
+    }
+
 }
 
 
@@ -78,11 +84,7 @@
 }
 
 
-.form-field__input:hover + .form-field__icon,
-.form-field__input:focus + .form-field__icon,
-.form-field__input:active + .form-field__icon{
-    fill: #2196F3;
-}
+
 
 
 .form-field-texarea {
@@ -98,6 +100,9 @@
 
 .form-field__checkbox-input {
     appearance: none;
+    &:checked + .form-field__checkbox-icon {
+        opacity: 1;
+    }
 }
 
 
@@ -124,11 +129,6 @@
     background-color: #2196f3;
     border-radius: 2px;
 }
-
-.form-field__checkbox-input:checked + .form-field__checkbox-icon {
-    opacity: 1;
-}
-
 
 
 .form-field__checkbox-label {

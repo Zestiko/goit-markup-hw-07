@@ -89,12 +89,12 @@
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+    &:hover .contact-icon,
+    &:focus .contact-icon{
+        fill: #2196F3;
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
         
 }
 
-.auth-navigation__link:hover .contact-icon,
-.auth-navigation__link:focus .contact-icon{
-    fill: #2196F3;
-    transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
